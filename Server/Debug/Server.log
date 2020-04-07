@@ -1,1 +1,6 @@
-﻿
+﻿  ServerService.cpp
+C:\git\Service Example\Server\ServerService.cpp(181,11): warning C4101: 'pBuf' :참조되지 않은 지역 변수입니다.
+C:\git\Service Example\Server\ServerService.cpp(180,10): warning C4101: 'hMapFile' :참조되지 않은 지역 변수입니다.
+C:\git\Service Example\Server\ServerService.cpp(504,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\git\Service Example\Server\ServerService.cpp(349,10): warning C4101: 'hToken' :참조되지 않은 지역 변수입니다.
+  Server.vcxproj -> C:\git\Service Example\ZDebug\RVMSServerD.exe

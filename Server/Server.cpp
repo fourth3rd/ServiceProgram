@@ -9,10 +9,19 @@
 // 
 
 // Internal name of the service
-#define SERVICE_NAME             L"FL Version Manager Server"
+#ifdef _WIN64
+#define SERVICE_NAME             L"FL Protection core(x64)"
+#else
+#define SERVICE_NAME             L"FL Protection core(x86)"
+#endif
 
+
+#ifdef _WIN64
+#define SERVICE_DISPLAY_NAME             L"FL Protection core(x64)"
+#else
+#define SERVICE_DISPLAY_NAME             L"FL Protection core(x86)"
+#endif
 // Displayed name of the service
-#define SERVICE_DISPLAY_NAME     L"FL Version Manager Server Service"
 
 // Service start options.
 #define SERVICE_START_TYPE       SERVICE_AUTO_START
